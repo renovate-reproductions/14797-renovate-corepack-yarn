@@ -1,0 +1,9 @@
+{
+  "name": "renovate-corepack-yarn",
+  "private": true,
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "webpack": "5.69.1",
+    "webpack-cli": "4.9.2"
+  }
+}
