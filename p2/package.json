@@ -1,0 +1,6 @@
+{
+  "name": "sub",
+  "devDependencies": {
+    "renovate": "^32.16.1"
+  }
+}
