@@ -2,15 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>jgraichen/renovate-config"
-  ],
-  "packageRules": [
-    {
-      "matchPaths": [
-        "yarn-v3-via-constraint/package.json"
-      ],
-      "constraints": {
-        "yarn": "3.2.0"
-      }
-    }
   ]
 }
