@@ -204,7 +204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webpack-cli/configtest@npm:^1.1.0":
+"@webpack-cli/configtest@npm:^1.1.1":
   version: 1.1.1
   resolution: "@webpack-cli/configtest@npm:1.1.1"
   peerDependencies:
@@ -214,7 +214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webpack-cli/info@npm:^1.4.0":
+"@webpack-cli/info@npm:^1.4.1":
   version: 1.4.1
   resolution: "@webpack-cli/info@npm:1.4.1"
   dependencies:
@@ -225,7 +225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webpack-cli/serve@npm:^1.6.0":
+"@webpack-cli/serve@npm:^1.6.1":
   version: 1.6.1
   resolution: "@webpack-cli/serve@npm:1.6.1"
   peerDependencies:
@@ -803,15 +803,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate-corepack-yarn@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "renovate-corepack-yarn@workspace:."
-  dependencies:
-    webpack: 5.69.0
-    webpack-cli: 4.9.0
-  languageName: unknown
-  linkType: soft
-
 "resolve-cwd@npm:^3.0.0":
   version: 3.0.0
   resolution: "resolve-cwd@npm:3.0.0"
@@ -1003,19 +994,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"test2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "test2@workspace:."
+  dependencies:
+    webpack: 5.69.0
+    webpack-cli: 4.9.2
+  languageName: unknown
+  linkType: soft
+
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1"
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
-  languageName: node
-  linkType: hard
-
-"v8-compile-cache@npm:^2.2.0":
-  version: 2.3.0
-  resolution: "v8-compile-cache@npm:2.3.0"
-  checksum: adb0a271eaa2297f2f4c536acbfee872d0dd26ec2d76f66921aa7fc437319132773483344207bdbeee169225f4739016d8d2dbf0553913a52bb34da6d0334f8e
   languageName: node
   linkType: hard
 
@@ -1029,14 +1022,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:4.9.0":
-  version: 4.9.0
-  resolution: "webpack-cli@npm:4.9.0"
+"webpack-cli@npm:4.9.2":
+  version: 4.9.2
+  resolution: "webpack-cli@npm:4.9.2"
   dependencies:
     "@discoveryjs/json-ext": ^0.5.0
-    "@webpack-cli/configtest": ^1.1.0
-    "@webpack-cli/info": ^1.4.0
-    "@webpack-cli/serve": ^1.6.0
+    "@webpack-cli/configtest": ^1.1.1
+    "@webpack-cli/info": ^1.4.1
+    "@webpack-cli/serve": ^1.6.1
     colorette: ^2.0.14
     commander: ^7.0.0
     execa: ^5.0.0
@@ -1044,7 +1037,6 @@ __metadata:
     import-local: ^3.0.2
     interpret: ^2.2.0
     rechoir: ^0.7.0
-    v8-compile-cache: ^2.2.0
     webpack-merge: ^5.7.3
   peerDependencies:
     webpack: 4.x.x || 5.x.x
@@ -1059,7 +1051,7 @@ __metadata:
       optional: true
   bin:
     webpack-cli: bin/cli.js
-  checksum: bc378a23773510c9a6a58669fe782f7849b50cbb78a948723583e7b059eae2f49888eb6dba398361af916b3d56195d99cdb494a595a2ecc95a5638e99b59c923
+  checksum: ffb4c5d53ab65ce9f1e8efd34fca4cb858ec6afc91ece0d9375094edff2e7615708c8a586991057fd9cc8d37aab0eb0511913b178daac534e51bcf7d3583e61c
   languageName: node
   linkType: hard
 
