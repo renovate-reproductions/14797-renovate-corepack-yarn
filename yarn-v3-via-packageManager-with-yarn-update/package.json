@@ -1,7 +1,7 @@
 {
-  "name": "p3",
+  "name": "test3",
   "devDependencies": {
     "renovate": "32.14.0"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.0.0"
 }

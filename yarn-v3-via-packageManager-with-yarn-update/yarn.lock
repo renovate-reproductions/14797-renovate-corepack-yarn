@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 6
+  version: 4
   cacheKey: 8
 
 "@arcanis/slice-ansi@npm:^1.0.2":
@@ -4237,14 +4237,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p3@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "p3@workspace:."
-  dependencies:
-    renovate: 32.14.0
-  languageName: unknown
-  linkType: soft
-
 "parse-entities@npm:^2.0.0":
   version: 2.0.0
   resolution: "parse-entities@npm:2.0.0"
@@ -4746,7 +4738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.10.0":
+resolve@^1.10.0:
   version: 1.22.0
   resolution: "resolve@npm:1.22.0"
   dependencies:
@@ -4761,14 +4753,14 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=00b1ff"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: c79ecaea36c872ee4a79e3db0d3d4160b593f2ca16e031d8283735acd01715a203607e9ded3f91f68899c2937fa0d49390cddbe0fb2852629212f3cda283f4a7
+  checksum: b63b73ecbb7928e71c30e231f6adc380fca66bd5819a1b1324d3dcae573c726d9923df06eef3ac50be52b1dcea67272f3b6f12ba2e87ec8a9d3ebdf8454103bb
   languageName: node
   linkType: hard
 
@@ -5279,6 +5271,14 @@ __metadata:
   checksum: a04c07bb9e2d8f46776517d4618f2406fb977a74d914ad98b264fc3db0fe8224da5bec11e5f8902c5b9bcb8ace22d95fbe3c7b36b8593b7dfc8391a25898f32f
   languageName: node
   linkType: hard
+
+"test3@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "test3@workspace:."
+  dependencies:
+    renovate: 32.14.0
+  languageName: unknown
+  linkType: soft
 
 "through2-concurrent@npm:^2.0.0":
   version: 2.0.0
