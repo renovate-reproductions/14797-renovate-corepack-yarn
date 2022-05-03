@@ -8,8 +8,7 @@
       "matchPackageNames": [
         "renovate"
       ],
-      "minor": false,
-      "patch": false
+      "enabled": false
     }
   ]
 }
