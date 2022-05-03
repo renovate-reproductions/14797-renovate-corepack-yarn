@@ -11,6 +11,5 @@
       "minor": false,
       "patch": false
     }
-  ],
-  "additionalBranchPrefix": "{{parentDir}}-"
+  ]
 }
