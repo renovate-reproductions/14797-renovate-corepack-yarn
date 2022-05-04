@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 6
+  version: 5
   cacheKey: 8
 
 "@discoveryjs/json-ext@npm:^0.5.0":
@@ -803,15 +803,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate-corepack-yarn@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "renovate-corepack-yarn@workspace:."
-  dependencies:
-    webpack: 5.69.0
-    webpack-cli: 4.9.0
-  languageName: unknown
-  linkType: soft
-
 "resolve-cwd@npm:^3.0.0":
   version: 3.0.0
   resolution: "resolve-cwd@npm:3.0.0"
@@ -1002,6 +993,15 @@ __metadata:
   checksum: cc72b7a0e87421b5a6ef3f8a3c86ef251f6e7f8d6327b83c63045b8991a041cc4a42ea64e07701128e1786489902c8c44b5904056b0f12ceedb52924d493db04
   languageName: node
   linkType: hard
+
+"test2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "test2@workspace:."
+  dependencies:
+    webpack: 5.69.0
+    webpack-cli: 4.9.0
+  languageName: unknown
+  linkType: soft
 
 "uri-js@npm:^4.2.2":
   version: 4.4.1
